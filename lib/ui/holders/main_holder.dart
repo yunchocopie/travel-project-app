@@ -27,6 +27,7 @@ class _MainHolderState extends State<MainHolder> {
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
+
         selectedItemColor: Colors.green,
         backgroundColor: Colors.white,
         type: BottomNavigationBarType.fixed,
