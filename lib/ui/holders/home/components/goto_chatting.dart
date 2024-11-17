@@ -8,7 +8,7 @@ class GotoChatting extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverToBoxAdapter(
       child: Padding(
-        padding: const EdgeInsets.only(bottom: 14, left: 14, right: 14),
+        padding: const EdgeInsets.only(bottom: 14, left: 14, right: 14, top: 10),
         child: Container(
           decoration: BoxDecoration(
               color: Colors.white,
