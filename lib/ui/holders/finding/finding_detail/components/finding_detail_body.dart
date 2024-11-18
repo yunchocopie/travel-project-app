@@ -154,7 +154,7 @@ class FindingDetailBody extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 17,
                         color: Colors.black54,
-                          fontWeight: FontWeight.bold
+                          // fontWeight: FontWeight.bold
                       ),
                     )
                   ],
@@ -174,7 +174,7 @@ class FindingDetailBody extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 17,
                           color: Colors.black54,
-                          fontWeight: FontWeight.bold
+                          // fontWeight: FontWeight.bold
                       ),
                     )
                   ],
@@ -194,7 +194,7 @@ class FindingDetailBody extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 17,
                           color: Colors.black54,
-                        fontWeight: FontWeight.bold
+                        // fontWeight: FontWeight.bold
                       ),
                     )
                   ],

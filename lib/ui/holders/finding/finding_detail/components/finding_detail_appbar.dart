@@ -37,7 +37,7 @@ class FindingDetailAppbar extends StatelessWidget {
         itemBuilder: (context, index) {
           return Image.network(
             // "https://picsum.photos/id/${index + 1}/200/300",
-            'https://naverbooking-phinf.pstatic.net/20241029_10/1730189320644sTNDW_PNG/PC_02.png?type=a1000_60_sharpen',
+            'https://cdn.ijejutoday.com/news/photo/202409/305775_313287_2611.jpg',
             fit: BoxFit.cover,
           );
         },
