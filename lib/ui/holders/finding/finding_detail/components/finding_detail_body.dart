@@ -86,6 +86,41 @@ class FindingDetailBody extends StatelessWidget {
                   ],
                 ),
                 SizedBox(height: 10,),
+                Row(
+                  children: [
+                    Image.asset(
+                        'assets/images/profile_user_icon.png',
+                      height: 50,
+                      width: 50,
+                    ),
+                    SizedBox(width: 20,),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                            "user1",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 18
+                          ),
+                        ),
+                        Text(
+                            "남자 / 30세",
+                          style: TextStyle(
+                            color: Colors.black54
+                          ),
+                        ),
+                      ],
+                    ),
+                    Spacer(),
+                    Icon(
+                      CupertinoIcons.right_chevron,
+                      color: Colors.black87,
+                      size: 20,
+                    ),
+                  ],
+                ),
+                SizedBox(height: 10,),
                 Padding(
                   padding: const EdgeInsets.only(top: 16.0, bottom: 16),
                   child: Row(
