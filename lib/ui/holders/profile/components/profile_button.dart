@@ -1,6 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+import '../my_profile/my_profile_page.dart';
+
 class ProfileButton extends StatelessWidget {
   const ProfileButton({super.key});
 
@@ -19,7 +21,10 @@ class ProfileButton extends StatelessWidget {
             splashColor: Colors.black,
             borderRadius: BorderRadius.circular(10.0),
             onTap: () {
-
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MyProfilePage()),
+              );
               print('내 프로필 보기 클릭됨');
 
             },
